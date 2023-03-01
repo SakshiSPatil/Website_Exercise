@@ -1,0 +1,51 @@
+* {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(156, 248, 248);
+}
+
+.lbl {
+    font-size: 20px;
+}
+
+.btn_click {
+    background-color: rgb(18, 168, 243);
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    cursor: pointer;
+
+    transition: background-color 0.15s;
+    transition: color 0.15s;
+    box-shadow: 10px 10px 20px black;
+}
+
+.btn_click:hover {
+    background-color: black;
+    color: rgb(18, 168, 243);
+}
+
+.btn_click:active {
+    background-color: red;
+    opacity: 0.6;
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.ip {
+    border-radius: 5px;
+}
+
+a {
+    font-size: 20px;
+    align-items: center;
+}
